@@ -22,7 +22,7 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-  document.body.querySelector('a').addEventListener('click', function(event) {
+  document.querySelector('a').addEventListener('click', function(event) {
     let list = document.querySelector('employee-list');
     
     while (list.firstChild) {
