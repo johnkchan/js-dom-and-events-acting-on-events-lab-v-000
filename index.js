@@ -17,8 +17,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  let button = document.querySelector('input[value="Add Employee"]')
-  return document.querySelectorAll('input');
+  let button = document.querySelector('input[value="Add Employee"]');
   
 }
 
