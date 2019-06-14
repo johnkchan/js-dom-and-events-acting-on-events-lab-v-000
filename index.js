@@ -17,7 +17,7 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  document.querySelectorAll('input')
+  return document.querySelectorAll('input');
   
 }
 
