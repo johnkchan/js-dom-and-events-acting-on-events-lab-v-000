@@ -19,6 +19,7 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   let button = document.querySelector('input[value="Add Employee"]');
   addNewElementAsLi();
+  document.querySelector('input').value = "";
 }
 
 function clearEmployeeListOnLinkClick() {
